@@ -8,12 +8,13 @@ const codeLines = [
   { indent: 1, content: "name: 'NMS Tech Group',", color: 'text-blue-400' },
   { indent: 1, content: "founded: 'Aug 2025',", color: 'text-violet-400' },
   { indent: 1, content: "location: 'Santiago, Chile',", color: 'text-gray-400' },
-  { indent: 1, content: 'products: [', color: 'text-gray-300' },
-  { indent: 2, content: "'Speedrun Delivery',", color: 'text-emerald-400' },
-  { indent: 2, content: "'PortalTI', 'Finance Pro',", color: 'text-emerald-400' },
+  { indent: 1, content: 'services: [', color: 'text-gray-300' },
+  { indent: 2, content: "'SaaS & Software',", color: 'text-emerald-400' },
+  { indent: 2, content: "'IT & Networking',", color: 'text-emerald-400' },
+  { indent: 2, content: "'Cloud & Hardware',", color: 'text-emerald-400' },
   { indent: 1, content: '],', color: 'text-gray-300' },
-  { indent: 1, content: "mission: 'Software que importa',", color: 'text-amber-400' },
-  { indent: 1, content: "open: true,", color: 'text-green-400' },
+  { indent: 1, content: "mission: 'Plataformas escalables',", color: 'text-amber-400' },
+  { indent: 1, content: "status: 'Operando',", color: 'text-green-400' },
   { indent: 0, content: '}', color: 'text-gray-300' },
 ]
 
@@ -71,7 +72,7 @@ export default function Hero() {
           >
             <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold tracking-wider uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              Aceptando nuevos proyectos
+              NMS Engineering & Consulting
             </span>
           </motion.div>
 
@@ -82,8 +83,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h1 className="font-heading text-4xl sm:text-5xl xl:text-6xl font-bold leading-[1.1] tracking-tight text-white">
-              Construimos software{' '}
-              <span className="gradient-text">que importa</span>
+              Soluciones Integrales de{' '}
+              <span className="gradient-text">Informática y Tecnología</span>
             </h1>
           </motion.div>
 
@@ -94,11 +95,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.35 }}
             className="text-lg text-gray-400 leading-relaxed max-w-lg"
           >
-            Empresa de software desde Santiago, Chile. Creamos{' '}
-            <span className="text-blue-400 font-medium">Speedrun Delivery</span>,{' '}
-            <span className="text-violet-400 font-medium">PortalTI</span>,{' '}
-            <span className="text-blue-400 font-medium">Finance Pro</span> y más —
-            sistemas fullstack que escalan.
+            <span className="text-blue-400 font-medium">Desde software a la medida hasta infraestructura física y redes.</span>{' '}
+            Materializamos ideas y mejoramos ecosistemas completos. Resolvemos cualquier desafío tecnológico, físico o digital, para potenciar tu negocio.
           </motion.p>
 
           {/* CTAs */}
@@ -202,7 +200,7 @@ export default function Hero() {
               <span className="w-3 h-3 rounded-full bg-yellow-500/80" />
               <span className="w-3 h-3 rounded-full bg-green-500/80" />
               <span className="ml-auto text-xs text-gray-600 font-mono">
-                developer.ts
+                company.ts
               </span>
             </div>
 

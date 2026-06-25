@@ -18,8 +18,8 @@ const pillars = [
         <path d="M3 9h18M9 21V9" />
       </svg>
     ),
-    title: 'Desarrollo Fullstack',
-    description: 'Frontend con Next.js y React, backend con NestJS y ASP.NET Core. Un solo equipo, stack cohesionado de punta a punta.',
+    title: 'Ingeniería de Software & Cloud',
+    description: 'Diseño y construcción de plataformas web, aplicaciones móviles y soluciones SaaS usando tecnologías líderes (Next.js, React, Python).',
     accent: 'text-blue-400',
     border: 'border-blue-500/20',
     bg: 'bg-blue-500/[0.06]',
@@ -32,8 +32,8 @@ const pillars = [
         <line x1="12" x2="12" y1="22.08" y2="12" />
       </svg>
     ),
-    title: 'Infraestructura & DevOps',
-    description: 'Docker, Nginx, Cloudflare Tunnel y servidores propios. Desplegamos, mantenemos y escalamos sin depender de terceros.',
+    title: 'Infraestructura, Redes & Hardware',
+    description: 'Configuración de servidores físicos, diseño de redes corporativas, soporte on-premise y despliegue cloud con alta disponibilidad.',
     accent: 'text-violet-400',
     border: 'border-violet-500/20',
     bg: 'bg-violet-500/[0.06]',
@@ -46,8 +46,8 @@ const pillars = [
         <path d="m2 12 10 5 10-5" />
       </svg>
     ),
-    title: 'Productos Propios',
-    description: 'No solo desarrollamos para clientes — creamos y operamos nuestros propios productos: Speedrun Delivery, Finance Pro, CeliApp.',
+    title: 'Consultoría & Soluciones TI 360°',
+    description: 'Resolvemos y mejoramos cualquier ecosistema: desde armar la infraestructura física hasta automatizar flujos de inventario y software a la medida.',
     accent: 'text-emerald-400',
     border: 'border-emerald-500/20',
     bg: 'bg-emerald-500/[0.06]',
@@ -120,7 +120,7 @@ export default function About() {
                   <span className="font-mono font-bold text-xl gradient-text">nms</span>
                 </div>
                 <div>
-                  <p className="text-white font-semibold font-heading text-lg">NMS Tech Group</p>
+                  <p className="text-white font-semibold font-heading text-lg">NMS Engineering & Consulting</p>
                   <p className="text-gray-500 text-sm">nmsdev.tech · Santiago, Chile</p>
                 </div>
               </div>
@@ -149,14 +149,10 @@ export default function About() {
             {/* Bio */}
             <div className="flex flex-col gap-4">
               <p className="text-gray-300 leading-relaxed text-base">
-                <span className="text-white font-medium">NMS Tech Group</span> es una empresa de desarrollo de software con sede en Santiago, Chile. Trabajamos con empresas y emprendedores para construir productos digitales robustos, escalables y listos para producción.
+                <span className="text-white font-medium">NMS Engineering & Consulting</span> es tu partner tecnológico integral. Nos especializamos en materializar cualquier idea y mejorar procesos existentes, ya sea en el mundo físico (hardware, servidores, redes corporativas) o digital (software a la medida, arquitectura cloud, automatización).
               </p>
               <p className="text-gray-400 leading-relaxed text-base">
-                También operamos nuestros propios productos:{' '}
-                <span className="text-violet-400 font-medium">Speedrun Delivery</span>,{' '}
-                <span className="text-blue-400 font-medium">PortalTI</span>,{' '}
-                <span className="text-emerald-400 font-medium">Finance Pro</span> y{' '}
-                <span className="text-amber-400 font-medium">CeliApp</span> — sistemas fullstack que construimos, desplegamos y mantenemos.
+                Nos posicionamos como la solución definitiva de informática e internet para tu negocio. Desde el cableado y la configuración física hasta el despliegue de plataformas SaaS complejas a nivel global.
               </p>
 
               {/* CTAs */}

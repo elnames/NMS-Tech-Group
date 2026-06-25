@@ -17,6 +17,17 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 'vellum',
+    title: 'Vellum',
+    description: 'Solución integral de comercio electrónico, pasarelas de pago e integración logística.',
+    longDescription: 'Diseño, configuración y puesta en marcha de un E-Commerce completo en Shopify. Incluye importación masiva de productos, pasarelas de pago automatizadas y una integración logística avanzada con operadores de transporte de última milla.',
+    tags: ['Shopify', 'E-Commerce', 'Liquid', 'Logística'],
+    url: 'https://vellum.cl',
+    status: 'live',
+    featured: true,
+    accent: 'amber',
+  },
+  {
     id: 'speedrun-delivery',
     title: 'Speedrun Delivery',
     description:
@@ -58,6 +69,51 @@ const projects: Project[] = [
     tags: ['Flutter', 'Dart', 'Supabase', 'Mobile'],
     status: 'live',
     accent: 'amber',
+  },
+  {
+    id: 'm2-inmobiliaria',
+    title: 'M2',
+    description: 'SaaS B2C predictivo de mercado inmobiliario para inversionistas.',
+    longDescription: 'Plataforma que realiza scraping de propiedades en venta en Chile y aplica un modelo predictivo para calcular el valor justo de cada inmueble. Permite a los inversionistas detectar propiedades subvaloradas mediante un opportunity score antes de que el mercado las corrija.',
+    tags: ['TypeScript', 'Modelos Predictivos', 'Scraping', 'PostgreSQL'],
+    url: 'https://m2.nmsdev.tech',
+    status: 'live',
+    featured: true,
+    accent: 'emerald',
+  },
+  {
+    id: 'facestyle',
+    title: 'FaceStyle',
+    description: 'App de recomendación de cortes de cabello usando IA y reconocimiento facial.',
+    tags: ['IA', 'Reconocimiento Facial', 'Mobile', 'Web'],
+    status: 'in-progress',
+    accent: 'violet',
+  },
+  {
+    id: 'portafolio',
+    title: 'NMS Home Server',
+    description: 'Infraestructura on-premise bajo Linux que aloja todos mis proyectos.',
+    longDescription: 'Diseño e implementación de mi portafolio profesional, destacando por su infraestructura subyacente: el ecosistema entero de NMS Tech Group y mis proyectos personales están auto-alojados en un servidor físico propio gestionado con Docker, Nginx Proxy Manager y túneles Cloudflare.',
+    tags: ['TypeScript', 'Linux', 'Home Server', 'Docker'],
+    url: 'https://nmsdev.tech',
+    status: 'personal',
+    accent: 'blue',
+  },
+  {
+    id: 'drought-watch',
+    title: 'Drought Watch ML',
+    description: 'Análisis y predicción de riesgo de sequía en Australia.',
+    tags: ['Machine Learning', 'Python', 'Jupyter Notebook'],
+    status: 'personal',
+    accent: 'amber',
+  },
+  {
+    id: 'fashion-mnist',
+    title: 'Fashion MNIST DL',
+    description: 'Red Neuronal de clasificación de imágenes y dígitos manuscritos.',
+    tags: ['Deep Learning', 'Neural Networks', 'Python'],
+    status: 'personal',
+    accent: 'blue',
   },
 ]
 
@@ -232,13 +288,13 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="section-label mb-3">Proyectos</p>
+          <p className="section-label mb-3">SaaS Factory</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">
-            Lo que hemos{' '}
-            <span className="gradient-text">construido</span>
+            Portafolio de{' '}
+            <span className="gradient-text">Soluciones</span>
           </h2>
           <p className="text-gray-400 mt-3 max-w-xl">
-            Soluciones fullstack en producción, desde el diseño hasta el deploy.
+            Casos de éxito y plataformas avanzadas diseñadas y construidas por NMS Engineering & Consulting.
           </p>
         </motion.div>
 

@@ -24,6 +24,7 @@ const row2 = [
   { label: 'AWS', icon: '☁' },
   { label: 'GCP', icon: '🌐' },
   { label: 'Cloudflare', icon: '🛡' },
+  { label: 'Shopify', icon: '🛍' },
   { label: 'Tailwind CSS', icon: '💨' },
   { label: 'Flutter', icon: '📱' },
   { label: 'Git', icon: '🌿' },
@@ -146,14 +147,13 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="section-label mb-3">Skills</p>
+          <p className="section-label mb-3">Nuestras Capacidades</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">
-            Tecnologías con las que{' '}
-            <span className="gradient-text">trabajamos</span>
+            Stack Técnico y{' '}
+            <span className="gradient-text">Servicios Principales</span>
           </h2>
           <p className="text-gray-400 mt-3 max-w-xl">
-            Herramientas y tecnologías que usamos para construir
-            productos completos, de principio a fin.
+            Herramientas y tecnologías de clase mundial que utilizamos para diseñar y construir plataformas empresariales robustas y escalables.
           </p>
         </motion.div>
 
