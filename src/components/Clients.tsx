@@ -6,10 +6,11 @@ import { motion } from 'framer-motion';
 
 const projects = [
   { name: 'Vellum.cl', className: 'font-serif italic text-3xl font-light' },
-  { name: 'SMILE SYSTEM', className: 'font-sans font-black text-2xl tracking-widest uppercase' },
+  { name: 'SMILE SYSTEM', src: '/logos/dental.png' },
   { name: 'Finance Pro', className: 'font-mono font-bold text-2xl tracking-tight' },
-  { name: 'M2 Platform', className: 'font-sans font-extrabold text-3xl tracking-tighter' },
-  { name: 'SPEEDRUN', className: 'font-sans font-black italic text-3xl text-blue-500' },
+  { name: 'M2 Platform', src: '/logos/m2.svg' },
+  { name: 'SPEEDRUN', src: '/logos/speedrun.png' },
+  { name: 'PortalTI', src: '/logos/portalti.png' },
   { name: 'Mi Cartera', className: 'font-serif font-medium text-2xl tracking-wide' },
 ];
 
@@ -47,9 +48,17 @@ export default function Clients() {
                 key={`logo-${project.name}`} 
                 className="flex items-center justify-center h-12 px-6 opacity-60 hover:opacity-100 transition-opacity select-none"
               >
-                <span className={cn('text-white whitespace-nowrap', project.className)}>
-                  {project.name}
-                </span>
+                {project.src ? (
+                  <img
+                    alt={project.name}
+                    src={project.src}
+                    className="max-h-12 w-auto object-contain pointer-events-none"
+                  />
+                ) : (
+                  <span className={cn('text-white whitespace-nowrap', project.className)}>
+                    {project.name}
+                  </span>
+                )}
               </div>
             ))}
           </InfiniteSlider>
