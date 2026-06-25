@@ -5,13 +5,13 @@ import { ProgressiveBlur } from './ui/progressive-blur';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { name: 'Vellum.cl', className: 'font-serif italic text-3xl font-light' },
-  { name: 'SMILE SYSTEM', src: '/logos/dental.png' },
-  { name: 'Finance Pro', className: 'font-mono font-bold text-2xl tracking-tight' },
-  { name: 'M2 Platform', src: '/logos/m2.svg' },
-  { name: 'SPEEDRUN', src: '/logos/speedrun.png' },
+  { name: 'MiCarteraPro', className: 'font-serif font-medium text-2xl tracking-wide', url: 'https://micarterapro.nmsdev.tech' },
+  { name: 'Vellum.cl', className: 'font-serif italic text-3xl font-light', url: 'https://vellum.cl' },
+  { name: 'Dental', src: '/logos/dental.png', url: 'https://dental.nmsdev.tech' },
+  { name: 'Finance Pro', className: 'font-mono font-bold text-2xl tracking-tight', url: 'https://finance.nmsdev.tech' },
+  { name: 'M2 Platform', src: '/logos/m2.svg', url: 'https://m2.nmsdev.tech' },
+  { name: 'SPEEDRUN', src: '/logos/speedrun.png', url: 'https://speedrun.nmsdev.tech' },
   { name: 'PortalTI', src: '/logos/portalti.png' },
-  { name: 'Mi Cartera', className: 'font-serif font-medium text-2xl tracking-wide' },
 ];
 
 export default function Clients() {
@@ -44,9 +44,12 @@ export default function Clients() {
         <div className="relative mx-auto max-w-4xl py-6 border-y border-white/[0.05]">
           <InfiniteSlider gap={60} reverse duration={40} durationOnHover={20}>
             {projects.map((project) => (
-              <div 
+              <a 
                 key={`logo-${project.name}`} 
-                className="flex items-center justify-center h-12 px-6 opacity-60 hover:opacity-100 transition-opacity select-none"
+                href={project.url || '#'}
+                target={project.url ? "_blank" : "_self"}
+                rel={project.url ? "noopener noreferrer" : ""}
+                className="flex items-center justify-center h-12 px-6 opacity-60 hover:opacity-100 transition-opacity select-none cursor-pointer"
               >
                 {project.src ? (
                   <img
@@ -59,7 +62,7 @@ export default function Clients() {
                     {project.name}
                   </span>
                 )}
-              </div>
+              </a>
             ))}
           </InfiniteSlider>
 
