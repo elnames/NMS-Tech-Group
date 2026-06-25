@@ -149,7 +149,7 @@ export default function Skills() {
           <p className="section-label mb-3">Skills</p>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">
             Tecnologías con las que{' '}
-            <span className="gradient-text">trabajo</span>
+            <span className="gradient-text">trabajamos</span>
           </h2>
           <p className="text-gray-400 mt-3 max-w-xl">
             Herramientas y tecnologías que usamos para construir
