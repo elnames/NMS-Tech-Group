@@ -64,10 +64,12 @@ const projects: Project[] = [
   {
     id: 'micarterapro',
     title: 'MiCarteraPro',
-    description: 'Plataforma para el control de inversiones, seguimiento de portafolios y gestión patrimonial.',
-    tags: ['Next.js', 'React', 'Fintech', 'Dashboard'],
+    description: 'CRM SaaS especializado para ejecutivos de ventas automotrices.',
+    longDescription: 'Plataforma web responsiva que permite a los ejecutivos de ventas automotrices gestionar su propia cartera de clientes, registrar interacciones, programar seguimientos, manejar oportunidades de venta y almacenar documentos de forma segura.',
+    tags: ['Next.js 16', 'CRM SaaS', 'Supabase', 'Automotriz'],
     url: 'https://micarterapro.nmsdev.tech',
     status: 'live',
+    featured: true,
     accent: 'blue',
   },
   {
