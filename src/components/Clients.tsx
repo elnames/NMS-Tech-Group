@@ -5,7 +5,8 @@ import { ProgressiveBlur } from './ui/progressive-blur';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { name: 'MiCarteraPro', className: 'font-serif font-medium text-2xl tracking-wide', url: 'https://micarterapro.nmsdev.tech' },
+  { name: 'MiCarteraPro', className: 'font-serif font-medium text-2xl tracking-wide', url: 'https://micarterapro.cl' },
+  { name: 'mylanding.cl', className: 'font-sans font-black text-2xl tracking-tighter', url: 'https://mylanding.cl' },
   { name: 'Vellum.cl', className: 'font-serif italic text-3xl font-light', url: 'https://vellum.cl' },
   { name: 'Dental', src: '/logos/dental.png', url: 'https://dental.nmsdev.tech' },
   { name: 'Finance Pro', className: 'font-mono font-bold text-2xl tracking-tight', url: 'https://finance.nmsdev.tech' },
