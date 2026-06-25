@@ -154,6 +154,9 @@ export default function About() {
               <p className="text-gray-400 leading-relaxed text-base">
                 Nos posicionamos como la solución definitiva de informática e internet para tu negocio. Desde el cableado y la configuración física hasta el despliegue de plataformas SaaS complejas a nivel global.
               </p>
+              <p className="text-gray-400 leading-relaxed text-base">
+                Para abarcar todo este ciclo, trabajamos codo a codo con un <span className="text-white font-medium">equipo multidisciplinario</span> conformado por ingenieros civiles en informática, ingenieros en conectividad y redes, ingenieros comerciales, especialistas en SAP, expertos en marketing (MKT), publicistas, diseñadores y comunicadores audiovisuales.
+              </p>
 
               {/* CTAs */}
               <div className="flex items-center gap-3 pt-2">
