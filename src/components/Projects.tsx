@@ -53,12 +53,13 @@ const projects: Project[] = [
     accent: 'blue',
   },
   {
-    id: 'finance-pro',
-    title: 'Finance Pro',
-    description: 'Dashboard de gestión financiera personal con seguimiento de gastos y presupuesto.',
+    id: 'mi-cartera',
+    title: 'Mi Cartera',
+    description: 'Dashboard integral de gestión financiera personal con seguimiento de gastos, presupuestos y control de patrimonio.',
     tags: ['Next.js', 'NestJS', 'Prisma', 'Docker'],
     url: 'https://finance.nmsdev.tech',
     status: 'live',
+    featured: false,
     accent: 'emerald',
   },
   {
